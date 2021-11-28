@@ -2,6 +2,11 @@
 
 FreeOTP qrcode exporter app in javascript
 
+This app can be opened directly at https://tamsky.github.io/freeotp-export/master/export.html
+(Thanks to github pages.)
+
+----
+
 Backround: FreeOTP is a Google Authenticator compatible open source Android app, made by Red Hat. Available at https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp .
 
 Google authenticator does not allow backuping the secrets with adb, to backup one needs a rooted phone. FreeOTP however allows adb backup. The backup file obviously can be restored to any android phone, but for easy transfer to other phones, you can create qrcodes with this app. The app does all processing locally, no data is sent anywhere (this is easy to verify with browser developer tools, also the main source of the app is pretty simple, most of the code is in third party libraries).
