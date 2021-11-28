@@ -2,8 +2,11 @@
 
 FreeOTP qrcode exporter app in javascript
 
-This app can be opened directly at https://tamsky.github.io/freeotp-export/master/export.html
-(Thanks to github pages.)
+## This app can be opened directly at
+- https://tamsky.github.io/freeotp-export/master/export.html  (Thanks to github pages.)
+
+## Links to other Useful QR-related things:
+- https://freeotp.github.io/qrcode.html
 
 ----
 
